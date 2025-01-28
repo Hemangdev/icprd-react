@@ -17,7 +17,6 @@ import subodhtiwari from "../../assets/images/event-details/NationalAdvisoryBoar
 import NationalImage7 from "../../assets/images/event-details/NationalImage/Anil-Pandey.jpg";
 // import Peoples14 from "../../assets/images/event-details/NatyionalAdvisoryBoard/Dr14.jpg";
 import Peoples15 from "../../assets/images/event-details/NationalAdvisoryBoard/Dr15.jpg";
-import Peoples16 from "../../assets/images/event-details/NationalAdvisoryBoard/Dr16.jpg";
 
 
 // import Peoples17 from "../../assets/images/event-details/NationalAdvisoryBoard/Dr17.jpg";
