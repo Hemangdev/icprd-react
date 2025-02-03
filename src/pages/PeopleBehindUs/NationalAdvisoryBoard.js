@@ -9,6 +9,9 @@ import Peoples6 from "../../assets/images/event-details/NationalAdvisoryBoard/Dr
 import RajeshSinha from "../../assets/images/event-details/NationalAdvisoryBoard/RajeshSinha.jpg";
 import RakeshKShukla from "../../assets/images/event-details/NationalAdvisoryBoard/RakeshKShukla.jpg";
 import Poonam from "../../assets/images/PresidentsDesk/Poonam.jpeg";
+import DilipSingh from '../../assets/images/PresidentsDesk/Dilip-Singh.jpg'
+import Gopichand from '../../assets/images/PresidentsDesk/Gopi-Chand-Gurjar.jpg'
+import SunilKumar from '../../assets/images/PresidentsDesk/Dr.-Sunil-Kumar-Chaubey.jpg'
 import Peoples9 from "../../assets/images/event-details/NationalAdvisoryBoard/Dr9.jpg";
 import ShyamJaju from "../../assets/images/event-details/NationalAdvisoryBoard/ShyamJaju.jpg";
 import Peoples11 from "../../assets/images/event-details/NationalAdvisoryBoard/Dr11.jpg";
@@ -279,6 +282,37 @@ export default function NationalAdvisoryBoard() {
           <Card.Body className="pb-0">
             <Card.Title>Poonam Koura</Card.Title>
             <Card.Text className="m-0">(Socio-Economic Strategic Consultant)</Card.Text>
+          </Card.Body>
+        </Card>
+      </Col>
+
+       {/* New Members */}
+      <Col sm={6} md={3} className="pt-4">
+        <Card className="box-sdow">
+          <Card.Img variant="top" src={Gopichand} />
+          <Card.Body className="pb-0">
+            <Card.Title>Gopi Chand Gurjar</Card.Title>
+            <Card.Text className="m-0">(Dummy)</Card.Text>
+          </Card.Body>
+        </Card>
+      </Col>
+
+     
+      <Col sm={6} md={3} className="pt-4">
+        <Card className="box-sdow">
+          <Card.Img variant="top" src={SunilKumar} />
+          <Card.Body className="pb-0">
+            <Card.Title>Dr. Sunil Kumar Chaubey</Card.Title>
+            <Card.Text className="m-0">(Dummy)</Card.Text>
+          </Card.Body>
+        </Card>
+      </Col>
+      <Col sm={6} md={3} className="pt-4">
+        <Card className="box-sdow">
+          <Card.Img variant="top" src={DilipSingh} />
+          <Card.Body className="pb-0">
+            <Card.Title>Dilip Singh</Card.Title>
+            <Card.Text className="m-0">(Dummy)</Card.Text>
           </Card.Body>
         </Card>
       </Col>
