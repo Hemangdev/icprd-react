@@ -20,6 +20,9 @@ import newsPdf5 from '../../assets/images/news/news-pdf/RS-UP-4-3-2025.pdf'
 import thumb1 from '../../assets/images/news/headlines/rs-ddn-city.webp'
 import thumb2 from '../../assets/images/news/headlines/29-a.webp'
 import thubm4 from '../../assets/images/news/headlines/thumb-4.webp'
+import thubm5 from '../../assets/images/news/headlines/updated-thumb.webp'
+
+
 
 // News Thumbnails (Headlines)
 import headline1 from '../../assets/images/news/headlines/headline-1.webp'
@@ -63,6 +66,52 @@ export default function News() {
 
   const cardsData = [
 
+    // New news here
+    {
+      id: 4,
+      imageSrc: thumb1,
+      Icon: Avtarim,
+      Arrow: Arrows,
+      url: newsPdf1,
+      heading: 'Admin',
+      Date: 'July 30, 2024',
+      titles: "कोचिंग हादसा : आक्रोश के बीच एक्शन शुरू",
+      text: '01 MAY 2024: The Ministry of Earth Sciences...',
+    },
+    {
+      id: 4,
+      imageSrc: thubm5,
+      Icon: Avtarim,
+      Arrow: Arrows,
+      url: newsPdf2,
+      heading: 'Admin',
+      Date: 'July 30, 2024',
+      titles: "कोचिंग हादसा : आक्रोश के बीच एक्शन शुरू",
+      text: '01 MAY 2024: The Ministry of Earth Sciences...',
+    },
+    {
+      id: 4,
+      imageSrc: thumb2,
+      Icon: Avtarim,
+      Arrow: Arrows,
+      url: newsPdf3,
+      heading: 'Admin',
+      Date: 'July 30, 2024',
+      titles: "मोदी की विदेश नीति और महिला सशक्तिकरण पुस्तक का हुआ विमोचन",
+      text: '01 MAY 2024: The Ministry of Earth Sciences...',
+    },
+    {
+      id: 4,
+      imageSrc: thubm4,
+      Icon: Avtarim,
+      Arrow: Arrows,
+      url: newsPdf4,
+      heading: 'Admin',
+      Date: 'July 30, 2024',
+      titles: "समझनी होगी अभिव्यक्ति की आजादी",
+      text: '01 MAY 2024: The Ministry of Earth Sciences...',
+    },
+    
     {
       id: 6,
       imageSrc: Economic_Policy6,
@@ -122,62 +171,7 @@ export default function News() {
       titles: "India to Host ACTM 46 & CEP 26 in May",
       text: '01 MAY 2024: The Ministry of Earth Sciences...',
     },
-    // New news here
-    {
-      id: 4,
-      imageSrc: thumb1,
-      Icon: Avtarim,
-      Arrow: Arrows,
-      url: newsPdf1,
-      heading: 'Admin',
-      Date: 'July 30, 2024',
-      titles: "कोचिंग हादसा : आक्रोश के बीच एक्शन शुरू",
-      text: '01 MAY 2024: The Ministry of Earth Sciences...',
-    },
-    {
-      id: 4,
-      imageSrc: thumb1,
-      Icon: Avtarim,
-      Arrow: Arrows,
-      url: newsPdf2,
-      heading: 'Admin',
-      Date: 'July 30, 2024',
-      titles: "कोचिंग हादसा : आक्रोश के बीच एक्शन शुरू",
-      text: '01 MAY 2024: The Ministry of Earth Sciences...',
-    },
-    {
-      id: 4,
-      imageSrc: thumb2,
-      Icon: Avtarim,
-      Arrow: Arrows,
-      url: newsPdf3,
-      heading: 'Admin',
-      Date: 'July 30, 2024',
-      titles: "मोदी की विदेश नीति और महिला सशक्तिकरण पुस्तक का हुआ विमोचन",
-      text: '01 MAY 2024: The Ministry of Earth Sciences...',
-    },
-    {
-      id: 4,
-      imageSrc: thubm4,
-      Icon: Avtarim,
-      Arrow: Arrows,
-      url: newsPdf4,
-      heading: 'Admin',
-      Date: 'July 30, 2024',
-      titles: "समझनी होगी अभिव्यक्ति की आजादी",
-      text: '01 MAY 2024: The Ministry of Earth Sciences...',
-    },
-    {
-      id: 4,
-      imageSrc: thubm4,
-      Icon: Avtarim,
-      Arrow: Arrows,
-      url: newsPdf5,
-      heading: 'Admin',
-      Date: 'July 30, 2024',
-      titles: "समझनी होगी अभिव्यक्ति की आजादी",
-      text: '01 MAY 2024: The Ministry of Earth Sciences...',
-    },
+  
 
 
 
@@ -190,7 +184,7 @@ export default function News() {
       img: headline1,
       heading: "Admin",
       title: "'मोदी की विदेश नीति' और 'महिला सशक्तिकरण' पुस्तक का लोकार्पण",
-      Date: 'July 30, 2024',
+      Date: 'March 03, 2025',
       Icon: Avtarim,
       fullNews: News1,
     },
@@ -199,7 +193,7 @@ export default function News() {
       img: headline2,
       heading: "Admin",
       title: "महासत्संग आनंदम में श्री श्री ने किया दो पुस्तकों का विमोचन",
-      Date: 'July 30, 2024',
+      Date: 'March 03, 2025',
       Icon: Avtarim,
       fullNews: News2,
     },
@@ -208,7 +202,7 @@ export default function News() {
       img: headline3,
       heading: "Admin",
       title: "'मोदी की विदेश नीति' और 'महिला सशक्तिकरण' पुस्तक का विमोचन",
-      Date: 'July 30, 2024',
+      Date: 'March 03, 2025',
       Icon: Avtarim,
       fullNews: News3,
     },
@@ -217,7 +211,7 @@ export default function News() {
       img: headline4,
       heading: "Admin",
       title: "मोदी की विदेश नीति और महिला सशक्तिकरण पुस्तक का लोकार्पण",
-      Date: 'July 30, 2024',
+      Date: 'March 03, 2025',
       Icon: Avtarim,
       fullNews: News4,
     }, 
@@ -226,7 +220,7 @@ export default function News() {
       img: headline5,
       heading: "Admin",
       title: "'मोदी की विदेश नीति' और 'महिला सशक्तिकरण' पुस्तक का लोकार्पण",
-      Date: 'July 30, 2024',
+      Date: 'March 04, 2025',
       Icon: Avtarim,
       fullNews: News5,
     },
@@ -235,7 +229,7 @@ export default function News() {
       img: headline6,
       heading: "Admin",
       title: "'वो 17 दिन' का धामी ने किया विमोचन",
-      Date: 'July 30, 2024',
+      Date: 'March 04, 2025',
       Icon: Avtarim,
       fullNews: News6,
     },
@@ -244,7 +238,7 @@ export default function News() {
       img: headline7,
       heading: "Admin",
       title: "सिक्यारा टनल हादसे पर लिखी पुस्तक 'वो 17 दिन' का उत्तराखंड के सीएम ने किया विमोचन",
-      Date: 'July 30, 2024',
+      Date: 'March 04, 2025',
       Icon: Avtarim,
       fullNews: News7,
     },
@@ -253,7 +247,7 @@ export default function News() {
       img: headline8,
       heading: "Admin",
       title: "'मोदी की विदेश नीति' और 'महिला सशक्तिकरण' पुस्तक का लोकार्पण",
-      Date: 'July 30, 2024',
+      Date: 'March 04, 2025',
       Icon: Avtarim,
       fullNews: News8,
     }, 
@@ -262,13 +256,34 @@ export default function News() {
       img: headline10,
       heading: "Admin",
       title: "'मोदी की विदेश नीति' और 'महिला सशक्तिकरण' पुस्तक का लोकार्पण",
-      Date: 'July 30, 2024',
+      Date: 'March 04, 2025',
       Icon: Avtarim,
       fullNews: News10,
     }, 
   ]
   return (
     <>
+         {/* Headline Images */}
+         <div className='container'>
+        <div className='row'> {/* Row should contain all columns */}
+          {newsHeadline.map((i, index) => (
+            <div key={index} className='col-md-3 pb-4'> {/* Each item takes 3/12 columns */}
+              <div className='card'>
+                <img className='w-100' src={i.img} alt={i.id} />
+                <h6 className='text-center pt-2 fw-bold'>{i.title}</h6>
+                <Card.Body className='m-0 pb-3 pt-0 px-2'>
+                  <Card.Link><p onClick={() => handleImageClick(i.fullNews)} className='smaller text-white mb-0'>View News
+                    <img src={Arrows} alt="1" className='pain' style={{ width: "20px", paddingLeft: "5px" }} /></p>
+                    <p> Date - {i.Date}</p>
+                  </Card.Link>
+                 
+                </Card.Body>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+      
       <div className='container'>
         <div className="row">
           {/* Use map to dynamically create product cards */}
@@ -290,24 +305,7 @@ export default function News() {
       </div>
 
 
-      {/* Headline Images */}
-      <div className='container'>
-        <div className='row'> {/* Row should contain all columns */}
-          {newsHeadline.map((i, index) => (
-            <div key={index} className='col-md-3 pb-4'> {/* Each item takes 3/12 columns */}
-              <div className='card'>
-                <img className='w-100' src={i.img} alt={i.id} />
-                <h6 className='text-center pt-2 fw-bold'>{i.title}</h6>
-                <Card.Body className='m-0 pb-3 pt-0 px-2'>
-                  <Card.Link><p onClick={() => handleImageClick(i.fullNews)} className='smaller text-white mb-0'>View News
-                    <img src={Arrows} alt="1" className='pain' style={{ width: "20px", paddingLeft: "5px" }} /></p>
-                  </Card.Link>
-                </Card.Body>
-              </div>
-            </div>
-          ))}
-        </div>
-      </div>
+ 
 
       {/*  */}
       {/* Modal for Full Image View */}
