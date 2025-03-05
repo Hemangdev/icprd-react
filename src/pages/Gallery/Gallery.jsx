@@ -22,6 +22,13 @@ import BannerFourteen from '../../assets/images/HOMEPAGE/BannerSixteen.jpg'
 import BannerFifteen from '../../assets/images/HOMEPAGE/BannerSeventeen.jpg'
 import BannerSixteen from '../../assets/images/HOMEPAGE/BannerEighteen.jpg'
 import BannerSeventeen from '../../assets/images/HOMEPAGE/BannerNineteen.jpg'
+// New imports 
+import newImgae1 from '../../assets/images/HOMEPAGE/gallery-img-1.jpg'
+import newImgae2 from '../../assets/images/HOMEPAGE/gallery-img-2.jpg'
+import newImgae3 from '../../assets/images/HOMEPAGE/gallery-img-3.jpg'
+import newImgae4 from '../../assets/images/HOMEPAGE/gallery-img-4.jpg'
+import newImgae5 from '../../assets/images/HOMEPAGE/gallery-img-5.jpg'
+
 
 const Gallery = () => {
 
@@ -107,6 +114,11 @@ const Gallery = () => {
         { id: 14, img: BannerFifteen, altTag: '' },
         { id: 15, img: BannerSixteen, altTag: '' },
         { id: 16, img: BannerSeventeen, altTag: '' },
+        // { id: 17, img: newImgae1, altTag: '' },
+        // { id: 18, img: newImgae2, altTag: '' },
+        // { id: 19, img: newImgae3, altTag: '' },
+        // { id: 20, img: newImgae4, altTag: '' },
+        // { id: 21, img: newImgae5, altTag: '' },
     ]
 
     const handleImageClick = (image) => {
